@@ -1,0 +1,7 @@
+DEPENDENCIES
+  static_routes
+    path: .
+    metadata: true
+
+GRAPH
+  static_routes (0.0.1)

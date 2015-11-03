@@ -1,0 +1,7 @@
+AllCops:
+  Exclude:
+    - '**/Vagrantfile'
+
+Style/SingleSpaceBeforeFirstArg:
+  Exclude:
+    - 'metadata.rb'

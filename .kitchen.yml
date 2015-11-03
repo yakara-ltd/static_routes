@@ -1,0 +1,14 @@
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+
+platforms:
+- name: centos-7.1
+  run_list:
+  - recipe[static_routes::default]
+
+suites:
+- name: simple
+  attributes: {static_routes: {via: {'8.8.8.8': '10.0.2.2'}}}
