@@ -5,7 +5,10 @@ provisioner:
   name: chef_zero
 
 platforms:
-- name: centos-7.1
+- name: centos-7
+  run_list:
+  - recipe[static_routes::default]
+- name: debian-9
   run_list:
   - recipe[static_routes::default]
 

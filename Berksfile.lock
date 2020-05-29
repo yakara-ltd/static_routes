@@ -4,4 +4,4 @@ DEPENDENCIES
     metadata: true
 
 GRAPH
-  static_routes (0.0.1)
+  static_routes (0.0.2)
